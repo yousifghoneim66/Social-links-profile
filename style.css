@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(58, 58, 58);
+}
+img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.container{
+    width: 250px;
+    height: 550px;
+    background-color: rgb(41, 41, 41);
+
+    position: relative;
+    left: 500px;
+    top: 0px;
+    text-align: center;
+ color: white;
+  padding: 50px;
+  border-radius: 20px;
+
+}
+ .green{
+    color: rgb(93, 190, 93);
+    border-bottom:  10px; 
+    padding-bottom: 1px;
+ }
+ .links h5{
+    background-color: rgb(94, 94, 94);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+
+ }
+ .links h5:hover{
+    padding: 10px;
+    
+ }
+
+ .container .front{
+    color: gray;
+    font-size: small;
+}
